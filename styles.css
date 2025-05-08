@@ -1,0 +1,90 @@
+.top,
+.bottom {
+    height: 15vh;
+    
+}
+
+
+.box {
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    display: flex;
+    align-items:start;
+    justify-content: center;
+}
+
+.bottomBox {
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    display: flex;
+    align-items:center;
+    justify-content: start;
+}
+
+.topBox {
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    display: flex;
+    align-items:center;
+}
+
+.leftBox {
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    display: flex;
+    align-items:center;
+    justify-content: end;
+}
+
+.rightBox {
+    border: 2px solid black;
+    background-color: blanchedalmond;
+    display: flex;
+    align-items:center;
+    justify-content: start;
+}
+
+.rotate-left {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
+
+.rotate-right {
+    writing-mode: vertical-rl;
+}
+
+.rotate-down {
+    transform: rotate(180deg);
+  }
+
+.rotate-left-img {
+    transform: rotate(-90deg);
+}
+
+.rotate-right-img {
+    transform: rotate(90deg);
+}
+
+.topBox:hover,
+.bottomBox:hover,
+.leftBox:hover,
+.rightBox:hover {
+  background-color: #ffeeba;
+  cursor: pointer;
+}
+
+.topBox:active,
+.bottomBox:active,
+.leftBox:active,
+.rightBox:active {
+  transform: scale(1.2);
+  transition: transform 0.5s ease;
+  z-index: 1;
+}
+.col-1-5 {
+    width: 12.5%;
+  }
+
+  .equal-box {
+    height: 12.5%;
+  }
